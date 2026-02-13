@@ -1,7 +1,7 @@
 def number(num):
     print(num)
 
-number(8)
+number(8) 
 number(8)
 number(0)
 number(0)
