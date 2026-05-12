@@ -1,8 +1,6 @@
 def is_year_leap(year):
-    if (year % 4 == 0):
-        return(f"год {year}: True")
-    else:
-        return(f"год {year}: False")
+    return year % 4 == 0
 
-random_year = is_year_leap(2023)
-print(random_year)
+year = 2024
+result = is_year_leap(year)
+print(f"год {year}: {result}")

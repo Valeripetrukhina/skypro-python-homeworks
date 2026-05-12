@@ -1,5 +1,5 @@
 import math
-def square (side):
+def square(side):
     result = side * side
     return(math.ceil(result))
 
